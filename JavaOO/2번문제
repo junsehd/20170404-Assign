@@ -1,0 +1,33 @@
+package test;
+
+
+public class Student {
+
+    private String name;
+    private int a;
+
+    public void setter(String name) {
+        this.name = name;
+    }
+    
+    
+    public void settera(int a) {
+        this.a = a;
+    }
+
+    public String getter() {
+        return name = "컴퓨터정보공학과";
+    }
+
+    public int gettera() {
+        return a = 20130692;
+    }
+
+    public static void main(String[] args) {
+        Student student = new Student();
+        
+        System.out.println("학과는 = " + student.getter());
+        System.out.println("학번은 = " + student.gettera());
+
+    }
+}
