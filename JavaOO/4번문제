@@ -4,8 +4,6 @@ public class Cylinder {
 	Circle c;
 	double h;
 	
-	public Cylinder() {}
-	
 	public Cylinder(Circle circle, double height) {
 		this.c = circle;
 		this.h = height;
